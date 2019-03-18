@@ -1,0 +1,185 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+
+li,h1,h2,h3,h4,h5,p,a{color:#444}
+a{text-decoration: none;}
+li{list-style: none;}
+#wrap{
+	width:1280px;
+	height:1400px;
+	margin:0 auto;
+}
+header{
+	width:100%;
+	height:150px;
+	border-bottom:1px solid black;
+}
+header nav{
+	float:right;
+	width:50%;
+}
+nav{
+	padding-top:50px;
+	}
+header nav>ul>li>ul>li>a{
+	color:#fff;
+}
+header nav ul>li{
+	float:left;
+	width:150px;
+	text-align: center;
+	height:50px;
+	line-height: 50px;
+	background:#005788;
+	position:relative;
+	z-index:100;
+	}
+header nav ul>li>a{
+	color:#fff;
+	height:100%;
+	display:block;}
+header nav ul>li>ul>li{
+	height:0;
+	overflow:hidden;
+	}
+header nav ul>li:hover{
+	background: #fff;
+}
+header nav ul>li:hover ul li{
+	height:50px;
+	transition:.5s;
+}
+
+header nav ul>li:hover>a{
+	color:black
+}
+#logo{
+	width:30%;
+	float:left;}
+#logo img{
+	width:145px;
+	height:145px;
+	cursor: pointer;
+}
+#content{
+	width:100%;
+	height:1100px;
+}
+section{
+	width:80%;
+	height:100%;
+	float:left;
+	border-right:1px solid black;
+	padding:30px;
+	
+}
+
+#result_comment{
+	width:100%; 
+	height:50px;
+	line-height: 50px;
+	display:none;
+}
+
+section #result_table{
+	width:100%;
+	margin-top:25px;
+	border-collapse: separate;
+	border-spacing: 0;
+	border-bottom:1px solid black;
+}
+
+section #result_table tr{
+	height:100px;
+	margin-bottom:5px;
+	border-spacing: 5px;
+}
+
+section #result_table img{
+	width:150px;
+	height:200px;
+	display:block;
+}
+
+section #result_table td{
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+section #result_table td a:hover {
+	text-decoration: underline;
+}
+
+#number_table{
+	padding-top:20px;
+	margin:auto
+}
+
+#number_table tr td{
+	border:1px solid black;
+	width:20px;
+	height:20px;
+	text-align: center;
+	cursor: pointer;
+	
+}
+
+#search_in{
+	width:93%;
+	vertical-align: top;
+	height:25px;
+}
+
+#btn_search{
+	width:50px;
+	height:25px;
+}
+
+
+aside{
+	width:20%;
+	height:100%;
+	float:left;
+	border-right:1px solid black;
+	border-left:1px solid black;
+}
+
+#title{
+	padding:20px;
+	text-align: center;
+	border-bottom:1px solid black;
+}
+
+#Classification{
+	text-align: center;
+}
+
+#Classification ul li{
+	font-size:20px;
+	cursor: pointer;
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	background: #005788;
+	border-bottom:1px solid #fff;
+	color:#fff
+	}
+	
+	#Classification ul li:hover {
+	background: #fff;
+	color:#444;
+	border-bottom:1px solid #444;
+	
+}
+
+footer{
+	width:100%;
+	height:150px;
+	background: #999;
+	text-align: center;
+	line-height: 150px;;
+}
+
