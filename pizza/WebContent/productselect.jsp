@@ -13,26 +13,18 @@
 	<jsp:include page="nav.jsp" />
 	<section>
 		<div id="title">
-			<h1>통합매출현황조회</h1>
+			<h1>상품별매출현황</h1>
 		</div>
-		<table id="tselect">
+		<table id="pselect">
 			<colgroup>
-				<col width="15%"/>
-				<col width="15%"/>
-				<col width="15%"/>
-				<col width="10%"/>
-				<col width="20%"/>
-				<col width="10%"/>
-				<col width="15%"/>
+				<col width="33%"/>
+				<col width="33%"/>
+				<col width="33%"/>
 			</colgroup>
 			<tr>
-				<th>매출전표번호</th>
-				<th>지점</th>
-				<th>판매일자</th>
-				<th>피자코드</th>
-				<th>피자명</th>
-				<th>판매수량</th>
-				<th>매출액</th>
+				<th>피자 코드</th>
+				<th>피자 명</th>
+				<th>총매출액</th>
 			</tr>
 			<%
 			
@@ -40,10 +32,6 @@
 			<tr>
 				<td>1</td>
 				<td>2</td>
-				<td>3</td>
-				<td>4</td>
-				<td>5</td>
-				<td>6</td>
 				<td class="right">7</td>
 			</tr>
 			<%

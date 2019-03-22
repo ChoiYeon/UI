@@ -59,8 +59,30 @@ footer{
 .label{
 	text-align: center;
 }
-tselect{
-	wdith:900px;
+#tselect{
+	width:900px;
 	margin:0 auto;
-	
+	text-align: center;
+}
+#tselect tr td,#tselect tr th{
+	border: 1px solid #cfcfcf
+}
+#lselect{
+	width:500px;
+	margin:0 auto;
+	text-align: center;
+}
+#lselect tr td,#lselect tr th{
+	border: 1px solid #cfcfcf
+}
+#pselect{
+	width:500px;
+	margin:0 auto;
+	text-align: center;
+}
+#pselect tr td,#pselect tr th{
+	border: 1px solid #cfcfcf
+}
+.right{
+	text-align: right
 }
